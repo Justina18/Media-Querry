@@ -1,0 +1,36 @@
+.Header_Container{
+    width: 100%;
+    height: 80px;
+    background-color: dimgray;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.Header_Wrapper{
+    display: flex;
+    width: 95%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav_Contain{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Burger{
+    display: none;
+}
+
+@media screen and (max-width:769px){
+    .Nav_Contain{
+        display: none;
+    }
+    .Burger{
+        display: block;
+    }
+    
+}
